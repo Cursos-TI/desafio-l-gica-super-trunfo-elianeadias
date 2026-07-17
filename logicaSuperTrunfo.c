@@ -6,9 +6,9 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
-    // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
-
+    //Definição das variáveis para armazenar as propriedades das cidades
+    //Você pode utilizar o código do primeiro desafio
+    //teste
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
