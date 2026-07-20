@@ -101,32 +101,47 @@ int main() {
   printf("Densidade populaconal: %.2f\n", (populacao2 / area_km2));
   printf("Pib per cápita: %u\n", (pib2 / populacao2) );
 
+  printf("Agora vamos comparar os atributos das cartas: \n");
 
   if(populacao1 > populacao2){
-    printf("A carta 1 venceu no item populaçaõ! \n");
-  }else{
+    printf("A carta 1 venceu no item população! \n");
+  }else if(populacao1 < populacao2){
     printf("A carta 2 venceu no item população! \n");
+  } else {
+    printf("Houve empate no quantitaativo populacional!\n");
   }
 
   if(area_km1 > area_km2){
     printf("A carta 1 venceu no item area km2! \n");
-  } else {
+  } else if(area_km1 < area_km2){
     printf("A carta 2 venceu no item area km2! \n");
+  } else {
+    printf("Houve empate no tamanho da cidade!\n");
+  }
+
+  if(pontos_turisticos1 > pontos_turisticos2){
+    printf("A carta 1 venceu no quantitativo de pontos turísticos! \n");
+  } else if( pontos_turisticos1 < pontos_turisticos2){
+    printf("A carta 2 venceu no quantitativo de pontos turísticos! \n");
+  } else { 
+    printf("Houve empate no número de pontos turśticos! \n");
   }
 
   if(densidadePopulaciona1 > densidadePopulacional2){
     printf("A carta 1 venceu quanto à densidade populacional! \n");
-  } else {
+  } else if (densidadePopulaciona1 < densidadePopulacional2){
     ("A carta 2 venceu quanto à densidade populacinal! \n");
+  } else {
+    printf("Houve empate na densidade populacional! \n");
   }
 
   if(pibPercapita1 > pibPercapita2){
     printf("A carta 1 venceu quanto ao Pib percapta! \n");
-  } else {
-    printf("A carta 2 venceu quanto ao Pib percapta! \n");
-    
+  } else if (pibPercapita1 < pibPercapita2){
+    printf("A carta 2 venceu quanto ao Pib percapta! \n"); 
+  } else { 
+    printf("Houve empate no pib percapta! \n");
   }
-
   return 0;
  
 } 
